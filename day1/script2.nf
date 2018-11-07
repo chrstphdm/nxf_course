@@ -37,4 +37,4 @@ process index {
     salmon index --threads $task.cpus -t $transcriptome -i index
     """
 }
- 
+ index_ch.println()
